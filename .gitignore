@@ -1,0 +1,5 @@
+/server/world
+/server/logs
+/server/usercache.json
+/backup
+*.jar

@@ -1,0 +1,25 @@
+version: "3"
+services:
+  minecraft_server:
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+      - "25575:25575"
+    volumes:
+      - "./server:/data:rw"
+    environment:
+      - "EULA=TRUE"
+    tty: true
+    stdin_open: true
+    restart: always
+  backup:
+    image: itzg/mc-backup
+    environment:
+      - "RCON_HOST=mc-server"
+      - "PRUNE_BACKUPS_DAYS=60"
+    volumes:
+      - "./server:/data:ro"
+      - "./backup:/backups:rw"
+    links:
+      - "minecraft_server:mc-server"
+    restart: always
