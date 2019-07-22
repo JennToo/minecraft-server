@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "7abf08ac-0504-44d1-a32f-fe8cd6d10af6",
+    "name": "nat1192",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
