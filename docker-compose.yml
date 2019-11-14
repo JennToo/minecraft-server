@@ -1,6 +1,7 @@
 version: "3"
 services:
   minecraft_server:
+    container_name: minecraft_server
     image: itzg/minecraft-server
     ports:
       - "25565:25565"
@@ -9,10 +10,12 @@ services:
       - "./server:/data:rw"
     environment:
       - "EULA=TRUE"
+      - "MEMORY=4G"
     tty: true
     stdin_open: true
     restart: always
   backup:
+    container_name: minecraft_server_backer_upper
     image: itzg/mc-backup
     environment:
       - "RCON_HOST=mc-server"
