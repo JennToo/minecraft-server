@@ -1,6 +1,34 @@
 [
   {
+    "uuid": "a5fb56e9-d175-44ae-a527-ee46ecabc87d",
+    "name": "Erecka"
+  },
+  {
+    "uuid": "47e34bce-0725-4894-a494-cfc40f1cd41b",
+    "name": "toyn_srark"
+  },
+  {
+    "uuid": "705939df-3b39-4d04-a913-10af3fec501a",
+    "name": "joyeuxsci"
+  },
+  {
+    "uuid": "2f723165-0f04-461f-9203-7efd855e32d6",
+    "name": "CompuHacker"
+  },
+  {
+    "uuid": "3078139d-1104-47e5-b0c0-8a0d7c772f30",
+    "name": "Kisamagic"
+  },
+  {
+    "uuid": "bef1696d-db7a-454f-b08d-9028c72f3d08",
+    "name": "InfernoIII"
+  },
+  {
     "uuid": "858201bb-6cea-4b95-a291-091fb4fe1bae",
     "name": "Zinxe"
+  },
+  {
+    "uuid": "f59626ed-c057-4d0c-af58-27ba7b9731fe",
+    "name": "ApostleCat"
   }
 ]
