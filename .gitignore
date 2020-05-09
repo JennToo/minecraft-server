@@ -3,3 +3,6 @@
 /server/usercache.json
 /backup
 *.jar
+/bedrock/*
+!server.properties
+!whitelist.json

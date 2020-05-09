@@ -26,3 +26,14 @@ services:
     links:
       - "minecraft_server:mc-server"
     restart: always
+  bedrock:
+    image: itzg/minecraft-bedrock-server
+    environment:
+      EULA: "TRUE"
+    ports:
+      - "19132:19132/udp"
+    volumes:
+      - "./bedrock:/data:rw"
+    stdin_open: true
+    restart: unless-stopped
+    tty: true
